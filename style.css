@@ -1,0 +1,137 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+
+    background-color: gray;
+    height: 50px;
+    border: 2px solid black;
+
+    /*flexbox*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* separa logo y menu */
+}
+
+.logo {
+    height: inherit;
+    width: 25%;
+
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 5px 5px;
+    padding: 2px;
+    border: 2px solid black;
+}
+
+.publicidad {
+    display: flex;
+    align-items: center;
+    
+}
+
+.publicidad-contenido {
+    padding: 5%;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(209, 209, 218);
+}
+
+
+.carusel {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    height: 150px;
+}
+
+.menuSecundario {
+    align-items: center;
+    display: flexbox;
+}
+
+.btn-menu {
+    padding: 5px;
+    margin-top: 10px;
+    border-color: blue;
+    border-radius: 15px;
+}
+
+
+.contenido {
+    border: 2px solid black;
+    text-align: center;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.card-seccion {
+    width: 300px;
+    border: 2px solid black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card {
+    width: 300px;
+}
+/*
+.img-card {
+    border: 2px solid black;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}*/
+
+.btn-section {
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+
+footer {
+    border: 2px solid black;
+    background-color: gray;
+}
+
+.seccion-buscador {
+    text-align: center;
+    padding: 15px;
+}
+
+form {
+    margin-bottom: 15px;
+}
+input {
+    width: 80%;
+    border: 5px solid black;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+.secciones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.img-redes {
+    width: 15px;
+}
+
+.logo2 {
+    width: 10%;
+    border-radius: 15px;
+}
